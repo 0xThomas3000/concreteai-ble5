@@ -45,5 +45,21 @@
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+	<!-- When in use -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Need BLE permission</string>
+	<!-- Always -->
+	<!-- for iOS 11 + -->
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string> Need BLE permission </string>
+	<!-- for iOS 9/10 -->
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Need BLE permission</string>
+	<!-- Bluetooth Privacy -->
+	<!-- for iOS 13 + -->
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Need BLE permission</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Need BLE permission</string>
 </dict>
 </plist>
